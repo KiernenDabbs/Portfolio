@@ -9,21 +9,7 @@ export function Projects() {
       description: "A comprehensive leaderboard containing various statistics for guilds of the Minecraft minigame Hypixel Skyblock.",
       tech: ["React", "Node.js", "PostgreSQL", "TailwindCSS"],
       liveUrl: "https://guildlb.com",
-      githubUrl: "#",
-    },
-    {
-      title: "Project 2",
-      description: "A brief description of Project 2",
-      tech: ["Vue.js", "Express", "PostgreSQL"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Project 3",
-      description: "A brief description of Project 3",
-      tech: ["Next.js", "GraphQL", "Prisma"],
-      liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/treeot/leaderboard",
     },
   ]
 

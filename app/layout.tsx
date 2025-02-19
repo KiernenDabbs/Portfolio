@@ -1,3 +1,4 @@
+import "./globals.css"
 import { Inter } from "next/font/google"
 import { cn } from "@/lib/utils"
 import type React from "react" // Import React
@@ -20,4 +21,3 @@ export default function RootLayout({
     </html>
   )
 }
-

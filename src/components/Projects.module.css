@@ -1,0 +1,53 @@
+.projects {
+  background-color: #f8f9fa;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.projectCard {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.techStack {
+  margin: 15px 0;
+}
+
+.techTag {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.projectLinks a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.projectLinks a:hover {
+  text-decoration: underline;
+}
+

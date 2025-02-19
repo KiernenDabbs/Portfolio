@@ -23,10 +23,10 @@ export function Contact() {
           </CardContent>
           <CardFooter className="flex justify-between items-center">
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a href="https://github.com/KiernenDabbs" className="text-muted-foreground hover:text-primary">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a href="https://www.linkedin.com/in/kiernen-dabbs/" className="text-muted-foreground hover:text-primary">
                 <Linkedin className="h-6 w-6" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary">

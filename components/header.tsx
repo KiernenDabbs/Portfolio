@@ -28,9 +28,9 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Button asChild variant="outline">
-                <Link href="#contact">Contact</Link>
-              </Button>
+              <Link href="#contact" className="hover:text-primary transition-colors">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

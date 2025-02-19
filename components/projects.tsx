@@ -5,10 +5,10 @@ import { ExternalLink, Github } from "lucide-react"
 export function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "A brief description of Project 1",
-      tech: ["React", "Node.js", "MongoDB"],
-      liveUrl: "#",
+      title: "Skyblock Guild Leaderboard",
+      description: "A comprehensive leaderboard containing various statistics for guilds of the Minecraft minigame Hypixel Skyblock.",
+      tech: ["React", "Node.js", "PostgreSQL", "TailwindCSS"],
+      liveUrl: "https://guildlb.com",
       githubUrl: "#",
     },
     {

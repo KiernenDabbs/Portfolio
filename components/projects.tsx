@@ -11,6 +11,13 @@ export function Projects() {
       liveUrl: "https://guildlb.com",
       githubUrl: "https://github.com/treeot/leaderboard",
     },
+    {
+      title: "Vanilla Tweaks",
+      description: "A mod for Terraria that adds quality-of-life improvements and new content to the game.",
+      tech: ["C#", "Tmodloader", "Terraria"],
+      liveUrl: "https://steamcommunity.com/sharedfiles/filedetails/?id=3155623287",
+      githubUrl: "https://github.com/KiernenDabbs/Vanilla-Tweaks",
+    },
   ]
 
   return (

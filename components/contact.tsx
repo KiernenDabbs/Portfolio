@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail } from "lucide-react"
 
 export function Contact() {
   return (
-    <section id="contact" className="py-16">
+    <section id="contact" className="py-16 slide-fwd-center">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Get In Touch</h2>
         <Card className="max-w-2xl mx-auto">

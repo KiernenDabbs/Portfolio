@@ -1,12 +1,14 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { Code } from "lucide-react"
 
 export function Header() {
   return (
-    <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50">
+    <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-accent">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">
-          Kiernen Dabbs
+        <Link href="/" className="text-2xl font-bold flex items-center gap-2">
+          <Code className="w-6 h-6" />
+          <span>Kiernen Dabbs</span>
         </Link>
         <nav>
           <ul className="flex space-x-4">
@@ -26,7 +28,7 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Button asChild>
+              <Button asChild variant="outline">
                 <Link href="#contact">Contact</Link>
               </Button>
             </li>

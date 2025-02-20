@@ -12,9 +12,22 @@ export function About() {
           </CardHeader>
           <CardContent>
             <p className="mb-4">
-              I'm a passionate full-stack developer with a love for creating efficient, scalable, and user-friendly
-              applications. My journey in tech started with a curiosity about how things work, which led me to dive deep
-              into the world of programming.
+              I'm a passionate full-stack developer with a love for learning new technologies and improving my skills. 
+              My journey in tech started with a curiosity about how things work, which led me to dive deep into the world of programming.
+            </p>
+            <p>
+              With experience in both front-end and back-end technologies, I enjoy tackling complex problems and turning
+              ideas into reality. When I'm not coding, many times I'm looking into new technologies to enhance my projects.
+            </p>
+          </CardContent>
+          <CardHeader>
+            <CardTitle>Coding Local and Broad</CardTitle>
+            <CardDescription>Based in the Saint Louis Area</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p className="mb-4">
+              I was born and raised in the Saint Louis area, where I currently reside. I have a passion for building
+              things and solving problems, which has led me to pursue a career in software development.
             </p>
             <p>
               With experience in both front-end and back-end technologies, I enjoy tackling complex problems and turning
@@ -27,4 +40,3 @@ export function About() {
     </section>
   )
 }
-

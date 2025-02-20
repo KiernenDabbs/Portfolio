@@ -20,8 +20,12 @@ export function Hero() {
             View My Work <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </Button>
+        <Button asChild size="lg">
+          <a href="/projects">
+            Take a Look at My Resume <ArrowRight className="ml-2 h-5 w-5" />
+          </a>
+        </Button>
       </div>
     </section>
   )
 }
-

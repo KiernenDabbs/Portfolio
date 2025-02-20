@@ -15,12 +15,12 @@ export function Hero() {
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">Hi, I'm Kiernen Dabbs</h1>
         <p className="text-xl mb-8 text-muted-foreground">Full-Stack Developer | Problem Solver | Tech Enthusiast</p>
-        <Button asChild size="lg">
+        <Button asChild size="lg" className="hovermouse">
           <a href="#projects">
             See My Work <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </Button><br /><br/>
-        <Button asChild size="lg">
+        <Button asChild size="lg" className="hovermouse">
           <a href="./resume">
             View  My Resume <ArrowRight className="ml-2 h-5 w-5" />
           </a>

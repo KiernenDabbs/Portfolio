@@ -9,10 +9,10 @@ export default function ResumePage() {
     <main className="min-h-screen py-20 px-4">
       {/* Header with navigation and download button */}
       <div className="container mx-auto mb-8 flex justify-between items-center">
-        <Link href="/" className="text-primary hover:text-primary/80 transition-colors">
+        <Link href="/" className="text-primary hover:text-primary/80 transition-colors hovermouse">
           ← Back to Portfolio
         </Link>
-        <Button variant="outline" asChild>
+        <Button variant="outline" asChild className="hovermouse">
           <a href="/KiernenDabbsResume.pdf" download>
             <Download className="mr-2 h-4 w-4" />
             Download PDF
@@ -24,11 +24,11 @@ export default function ResumePage() {
       <div className="container mx-auto max-w-4xl">
         <Tabs defaultValue="html" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-8">
-            <TabsTrigger value="html" className="flex items-center">
+            <TabsTrigger value="html" className="flex items-center hovermouse">
               <Code className="mr-2 h-4 w-4" />
               HTML Version
             </TabsTrigger>
-            <TabsTrigger value="pdf" className="flex items-center">
+            <TabsTrigger value="pdf" className="flex items-center hovermouse">
               <FileText className="mr-2 h-4 w-4" />
               PDF Version
             </TabsTrigger>
@@ -42,7 +42,7 @@ export default function ResumePage() {
                   <div className="flex flex-col items-center justify-center p-8 text-center">
                     <p className="mb-4">Unable to display PDF file.</p>
                     <Button asChild variant="outline">
-                      <a href="/KiernenDabbsResume.pdf" download>
+                      <a className="hovermouse" href="/KiernenDabbsResume.pdf" download>
                         <Download className="mr-2 h-4 w-4" />
                         Download PDF Instead
                       </a>

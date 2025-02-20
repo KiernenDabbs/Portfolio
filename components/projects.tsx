@@ -44,12 +44,12 @@ export function Projects() {
                 </div>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <Button asChild variant="outline">
+                <Button asChild variant="outline" className="hovermouse">
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
                   </a>
                 </Button>
-                <Button asChild variant="outline">
+                <Button asChild variant="outline" className="hovermouse">
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-4 w-4" /> GitHub
                   </a>

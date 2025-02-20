@@ -13,27 +13,27 @@ export function Header() {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <Link href="#about" className="hover:text-primary transition-colors">
+              <Link href="#about" className="hover:text-primary transition-colors hovermouse">
                 About
               </Link>
             </li>
             <li>
-              <Link href="#projects" className="hover:text-primary transition-colors">
+              <Link href="#projects" className="hover:text-primary transition-colors hovermouse">
                 Projects
               </Link>
             </li>
             <li>
-              <Link href="#skills" className="hover:text-primary transition-colors">
+              <Link href="#skills" className="hover:text-primary transition-colors hovermouse">
                 Skills
               </Link>
             </li>
             <li>
-              <Link href="/resume" className="hover:text-primary transition-colors">
+              <Link href="/resume" className="hover:text-primary transition-colors hovermouse">
                 Resume
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="hover:text-primary transition-colors">
+              <Link href="#contact" className="hover:text-primary transition-colors hovermouse">
                 Contact
               </Link>
             </li>

@@ -22,7 +22,7 @@ export default function ResumePage() {
 
       {/* Tabs for switching between PDF and HTML versions */}
       <div className="container mx-auto max-w-4xl">
-        <Tabs defaultValue="pdf" className="w-full">
+        <Tabs defaultValue="html" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-8">
             <TabsTrigger value="html" className="flex items-center">
               <Code className="mr-2 h-4 w-4" />

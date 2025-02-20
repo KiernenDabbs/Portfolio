@@ -37,8 +37,18 @@ export default function ResumePage() {
           {/* PDF Version */}
           <TabsContent value="pdf">
             <Card className="border-accent">
-              <CardContent className="p-0 aspect-[8.5/11] w-full">
-                <iframe src="/KiernenDabbsResume.pdf" className="w-full h-full" style={{ minHeight: "1000px" }} />
+            <CardContent className="p-0 aspect-[8.5/11] w-full">
+                <object data="/KiernenDabbsResume.pdf" type="application/pdf" className="w-full h-full min-h-[1000px]">
+                  <div className="flex flex-col items-center justify-center p-8 text-center">
+                    <p className="mb-4">Unable to display PDF file.</p>
+                    <Button asChild variant="outline">
+                      <a href="/KiernenDabbsResume.pdf" download>
+                        <Download className="mr-2 h-4 w-4" />
+                        Download PDF Instead
+                      </a>
+                    </Button>
+                  </div>
+                </object>
               </CardContent>
             </Card>
           </TabsContent>
@@ -94,7 +104,7 @@ export default function ResumePage() {
                     <span className="text-muted-foreground text-sm">2023 - 2023</span>
                   </div>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>Repaired and updated school IT equipment in preparation for the 2023-2024 academic year</li>
+                    <li>Repaired and updated school IT equipment in preparation for the 2023 - 2024 academic year</li>
                     <li>Worked closely with a team of experienced technicians with a passion for technology</li>
                   </ul>
                 </div>
@@ -112,7 +122,7 @@ export default function ResumePage() {
                     <h3 className="font-semibold">Associate of Information Technology</h3>
                     <p className="text-primary">Ranken Technical College</p>
                   </div>
-                  <span className="text-muted-foreground text-sm">2023-2025</span>
+                  <span className="text-muted-foreground text-sm">2023 - 2025</span>
                 </div>
               </CardContent>
             </Card>

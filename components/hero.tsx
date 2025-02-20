@@ -21,7 +21,7 @@ export function Hero() {
           </a>
         </Button><br /><br/>
         <Button asChild size="lg">
-          <a href="./app/resume">
+          <a href="./resume">
             View  My Resume <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </Button>

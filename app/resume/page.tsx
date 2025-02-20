@@ -34,25 +34,6 @@ export default function ResumePage() {
             </TabsTrigger>
           </TabsList>
 
-          {/* PDF Version */}
-          <TabsContent value="pdf">
-            <Card className="border-accent">
-            <CardContent className="p-0 aspect-[8.5/11] w-full">
-                <object data="/KiernenDabbsResume.pdf" type="application/pdf" className="w-full h-full min-h-[1000px]">
-                  <div className="flex flex-col items-center justify-center p-8 text-center">
-                    <p className="mb-4">Unable to display PDF file.</p>
-                    <Button asChild variant="outline">
-                      <a href="/KiernenDabbsResume.pdf" download>
-                        <Download className="mr-2 h-4 w-4" />
-                        Download PDF Instead
-                      </a>
-                    </Button>
-                  </div>
-                </object>
-              </CardContent>
-            </Card>
-          </TabsContent>
-
           {/* HTML Version */}
           <TabsContent value="html" className="space-y-8">
             {/* Header Section */}
@@ -171,6 +152,25 @@ export default function ResumePage() {
                   </div>
                   <span className="text-muted-foreground text-sm">2023</span>
                 </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+          
+          {/* PDF Version */}
+          <TabsContent value="pdf">
+            <Card className="border-accent">
+            <CardContent className="p-0 aspect-[8.5/11] w-full">
+                <object data="/KiernenDabbsResume.pdf" type="application/pdf" className="w-full h-full min-h-[1000px]">
+                  <div className="flex flex-col items-center justify-center p-8 text-center">
+                    <p className="mb-4">Unable to display PDF file.</p>
+                    <Button asChild variant="outline">
+                      <a href="/KiernenDabbsResume.pdf" download>
+                        <Download className="mr-2 h-4 w-4" />
+                        Download PDF Instead
+                      </a>
+                    </Button>
+                  </div>
+                </object>
               </CardContent>
             </Card>
           </TabsContent>

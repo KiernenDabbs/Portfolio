@@ -67,7 +67,7 @@ export default function ResumePage() {
                 <p className="text-muted-foreground">
                   <ExternalLink className="inline mr-2 h-4 w-4" />
                   Portfolio:{" "}
-                  <a href="https://kiernendabbs.dev" className="text-primary hover:underline">
+                  <a href="https://kiernendabbs.vercel.app" className="text-primary hover:underline">
                     kiernendabbs.vercel.app
                   </a>
                 </p>

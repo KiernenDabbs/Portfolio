@@ -38,7 +38,7 @@ export default function ResumePage() {
           <TabsContent value="pdf">
             <Card className="border-accent">
               <CardContent className="p-0 aspect-[8.5/11] w-full">
-                <iframe src="/Kiernen-Dabbs-Resume.pdf" className="w-full h-full" style={{ minHeight: "1000px" }} />
+                <iframe src="/KiernenDabbsResume.pdf" className="w-full h-full" style={{ minHeight: "1000px" }} />
               </CardContent>
             </Card>
           </TabsContent>
@@ -94,7 +94,7 @@ export default function ResumePage() {
                     <span className="text-muted-foreground text-sm">2023 - 2023</span>
                   </div>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>Repaired, replaced and updated school IT equipment in preparation for the 2023-2024 academic year</li>
+                    <li>Repaired and updated school IT equipment in preparation for the 2023-2024 academic year</li>
                     <li>Worked closely with a team of experienced technicians with a passion for technology</li>
                   </ul>
                 </div>

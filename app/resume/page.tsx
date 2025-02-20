@@ -74,30 +74,28 @@ export default function ResumePage() {
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-semibold">Senior Software Engineer</h3>
-                      <p className="text-primary">Company Name</p>
+                      <h3 className="font-semibold">Development Tutor</h3>
+                      <p className="text-primary">Ranken Technical College</p>
                     </div>
-                    <span className="text-muted-foreground text-sm">2020 - Present</span>
+                    <span className="text-muted-foreground text-sm">2024 - Present</span>
                   </div>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>Led development of key features resulting in 40% increase in user engagement</li>
-                    <li>Architected and implemented scalable solutions handling millions of requests</li>
-                    <li>Mentored junior developers and conducted code reviews</li>
+                    <li>Worked with a team of tutors and student success workers to provide student aid</li>
+                    <li>Personally mentored several students in solving critical problems with code and technology</li>
                   </ul>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-semibold">Software Developer</h3>
-                      <p className="text-primary">Previous Company</p>
+                      <h3 className="font-semibold">District Technician</h3>
+                      <p className="text-primary">Waterloo Community Unit School District</p>
                     </div>
-                    <span className="text-muted-foreground text-sm">2018 - 2020</span>
+                    <span className="text-muted-foreground text-sm">2023 - 2023</span>
                   </div>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>Developed and maintained full-stack applications using modern technologies</li>
-                    <li>Collaborated with cross-functional teams to deliver projects on time</li>
-                    <li>Implemented automated testing reducing bug reports by 30%</li>
+                    <li>Repaired, replaced and updated school IT equipment in preparation for the 2023-2024 academic year</li>
+                    <li>Worked closely with a team of experienced technicians with a passion for technology</li>
                   </ul>
                 </div>
               </CardContent>
@@ -111,10 +109,10 @@ export default function ResumePage() {
               <CardContent className="space-y-4">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold">Bachelor of Science in Computer Science</h3>
-                    <p className="text-primary">University Name</p>
+                    <h3 className="font-semibold">Associate of Information Technology</h3>
+                    <p className="text-primary">Ranken Technical College</p>
                   </div>
-                  <span className="text-muted-foreground text-sm">2014 - 2018</span>
+                  <span className="text-muted-foreground text-sm">2023-2025</span>
                 </div>
               </CardContent>
             </Card>
@@ -139,7 +137,7 @@ export default function ResumePage() {
                   <div>
                     <h3 className="font-semibold mb-2">Backend Development</h3>
                     <div className="flex flex-wrap gap-2">
-                      {["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"].map((skill) => (
+                      {["Node.js", "C#", "PostgreSQL", "REST APIs"].map((skill) => (
                         <span key={skill} className="px-2 py-1 bg-accent text-accent-foreground rounded-md text-sm">
                           {skill}
                         </span>
@@ -158,8 +156,8 @@ export default function ResumePage() {
               <CardContent className="space-y-4">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold">AWS Certified Developer</h3>
-                    <p className="text-muted-foreground">Amazon Web Services</p>
+                    <h3 className="font-semibold">Certificate of Work Ethic Proficiency</h3>
+                    <p className="text-muted-foreground">Center for Work Ethic Development</p>
                   </div>
                   <span className="text-muted-foreground text-sm">2023</span>
                 </div>

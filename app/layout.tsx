@@ -1,6 +1,7 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import { cn } from "@/lib/utils"
+import { Analytics } from "@vercel/analytics/react"
 import type React from "react"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -8,11 +9,8 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Kiernen Dabbs - Developer Portfolio",
   description: "A showcase of my work and skills as a developer",
-  icons: {
-    icon: "/icon.ico",
-    shortcut: "/icon.ico",
-    apple: "/apple-icon.png",
-  },
+  image: "/og-image.jpg",
+  url: "https://kiernendabbs.vercel.app",
 }
 
 export default function RootLayout({

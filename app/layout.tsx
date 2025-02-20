@@ -9,8 +9,8 @@ export const metadata = {
   title: "Kiernen Dabbs - Developer Portfolio",
   description: "A showcase of my work and skills as a developer",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/icon.ico",
+    shortcut: "/icon.ico",
     apple: "/apple-icon.png",
   },
 }

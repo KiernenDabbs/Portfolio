@@ -17,12 +17,12 @@ export function Hero() {
         <p className="text-xl mb-8 text-muted-foreground">Full-Stack Developer | Problem Solver | Tech Enthusiast</p>
         <Button asChild size="lg">
           <a href="#projects">
-            View My Work <ArrowRight className="ml-2 h-5 w-5" />
+            See My Work <ArrowRight className="ml-2 h-5 w-5" />
           </a>
-        </Button><br />
+        </Button><br /><br/>
         <Button asChild size="lg">
           <a href="/projects">
-            Take a Look at My Resume <ArrowRight className="ml-2 h-5 w-5" />
+            View  My Resume <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </Button>
       </div>

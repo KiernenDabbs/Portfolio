@@ -24,15 +24,34 @@ export default function ResumePage() {
       <div className="container mx-auto max-w-4xl">
         <Tabs defaultValue="pdf" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-8">
-            <TabsTrigger value="pdf" className="flex items-center">
-              <FileText className="mr-2 h-4 w-4" />
-              PDF Version
-            </TabsTrigger>
             <TabsTrigger value="html" className="flex items-center">
               <Code className="mr-2 h-4 w-4" />
               HTML Version
             </TabsTrigger>
+            <TabsTrigger value="pdf" className="flex items-center">
+              <FileText className="mr-2 h-4 w-4" />
+              PDF Version
+            </TabsTrigger>
           </TabsList>
+
+          {/* PDF Version */}
+          <TabsContent value="pdf">
+            <Card className="border-accent">
+            <CardContent className="p-0 aspect-[8.5/11] w-full">
+                <object data="/KiernenDabbsResume.pdf" type="application/pdf" className="w-full h-full min-h-[1000px]">
+                  <div className="flex flex-col items-center justify-center p-8 text-center">
+                    <p className="mb-4">Unable to display PDF file.</p>
+                    <Button asChild variant="outline">
+                      <a href="/KiernenDabbsResume.pdf" download>
+                        <Download className="mr-2 h-4 w-4" />
+                        Download PDF Instead
+                      </a>
+                    </Button>
+                  </div>
+                </object>
+              </CardContent>
+            </Card>
+          </TabsContent>
 
           {/* HTML Version */}
           <TabsContent value="html" className="space-y-8">
@@ -152,25 +171,6 @@ export default function ResumePage() {
                   </div>
                   <span className="text-muted-foreground text-sm">2023</span>
                 </div>
-              </CardContent>
-            </Card>
-          </TabsContent>
-          
-          {/* PDF Version */}
-          <TabsContent value="pdf">
-            <Card className="border-accent">
-            <CardContent className="p-0 aspect-[8.5/11] w-full">
-                <object data="/KiernenDabbsResume.pdf" type="application/pdf" className="w-full h-full min-h-[1000px]">
-                  <div className="flex flex-col items-center justify-center p-8 text-center">
-                    <p className="mb-4">Unable to display PDF file.</p>
-                    <Button asChild variant="outline">
-                      <a href="/KiernenDabbsResume.pdf" download>
-                        <Download className="mr-2 h-4 w-4" />
-                        Download PDF Instead
-                      </a>
-                    </Button>
-                  </div>
-                </object>
               </CardContent>
             </Card>
           </TabsContent>

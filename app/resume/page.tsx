@@ -50,6 +50,11 @@ export default function ResumePage() {
             <p className="text-muted-foreground">Location: <strong>Saint Louis Area</strong></p>
           </CardContent>
         </Card>
+        <iframe
+          className="w-full h-96 border-0"
+          src="/KiernenDabbsResume.pdf"
+          title="Kiernen Dabbs Resume"
+        ></iframe>
       </div>
     </main>
   );

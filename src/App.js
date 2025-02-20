@@ -5,7 +5,6 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import "./App.css"
-<link rel="icon" href="./favicon_io" type="image/x-icon" />
 
 function App() {
   return (

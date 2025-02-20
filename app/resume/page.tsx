@@ -13,7 +13,7 @@ export default function ResumePage() {
           ← Back to Portfolio
         </Link>
         <Button variant="outline" asChild>
-          <a href="/Kiernen-Dabbs-Resume.pdf" download>
+          <a href="/KiernenDabbsResume.pdf" download>
             <Download className="mr-2 h-4 w-4" />
             Download PDF
           </a>
@@ -58,10 +58,10 @@ export default function ResumePage() {
                   <ExternalLink className="inline mr-2 h-4 w-4" />
                   Portfolio:{" "}
                   <a href="https://kiernendabbs.dev" className="text-primary hover:underline">
-                    kiernendabbs.dev
+                    kiernendabbs.vercel.app
                   </a>
                 </p>
-                <p className="text-muted-foreground">Location: [Your Location]</p>
+                <p className="text-muted-foreground">Location: Saint Louis Area</p>
               </CardContent>
             </Card>
 

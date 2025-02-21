@@ -12,6 +12,10 @@ body {
   }
 }
 
+.glowyhover:hover{
+  text-shadow: 0 0 3px #FFFFFF, 0 0 5px #0000FF;
+}
+
 .hovermouse:hover {
   cursor: pointer;
 }

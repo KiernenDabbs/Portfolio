@@ -30,9 +30,8 @@ export function About() {
               things and solving problems, which has led me to pursue a career in software development.
             </p>
             <p>
-              With experience in both front-end and back-end technologies, I enjoy tackling complex problems and turning
-              ideas into reality. When I'm not coding, you can find me exploring new technologies, contributing to
-              open-source projects, or sharing my knowledge through blog posts and community events.
+              I'm always looking for new opportunities to collaborate and work on exciting projects. If you have a project
+              in mind or an interesting idea you'd like to discuss, feel free to reach out to me through <a href="#contact">the contact form</a> below.
             </p>
           </CardContent>
         </Card>

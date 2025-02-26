@@ -15,10 +15,11 @@ export function Contact() {
             <CardDescription>Fill out the form below or reach out through social media.</CardDescription>
           </CardHeader>
           <CardContent>
-            <form className="space-y-4">
-              <Input placeholder="Your Name" />
-              <Input type="email" placeholder="Your Email" />
-              <Textarea placeholder="Your Message" />
+            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
+              <Input type="hidden" name="access_key" value="d27f2f36-87c3-4f14-b3b8-4d8a960622e4"/>
+              <Input required name="name" type="text" placeholder="Your Name" />
+              <Input required name="email" type="email" placeholder="Your Email" />
+              <Textarea required name="message" placeholder="Your Message" />
             </form>
           </CardContent>
           <CardFooter className="flex justify-between items-center">

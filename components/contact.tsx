@@ -14,13 +14,12 @@ export function Contact() {
             <CardTitle>Contact Me</CardTitle>
             <CardDescription>Fill out the form below or reach out through social media.</CardDescription>
           </CardHeader>
+          <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
           <CardContent>
-            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
               <Input type="hidden" name="access_key" value="d27f2f36-87c3-4f14-b3b8-4d8a960622e4"/>
               <Input required name="name" type="text" placeholder="Your Name" />
               <Input required name="email" type="email" placeholder="Your Email" />
               <Textarea required name="message" placeholder="Your Message" />
-            </form>
           </CardContent>
           <CardFooter className="flex justify-between items-center">
             <div className="flex space-x-4">
@@ -36,6 +35,7 @@ export function Contact() {
             </div>
             <Button className="hovermouse" type="submit">Send Message</Button>
           </CardFooter>
+          </form>
         </Card>
       </div>
     </section>

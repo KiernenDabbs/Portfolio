@@ -16,9 +16,9 @@ export function Contact() {
           </CardHeader>
           <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
           <CardContent>
-              <Input type="hidden" name="access_key" value="d27f2f36-87c3-4f14-b3b8-4d8a960622e4"/>
-              <Input required name="name" type="text" placeholder="Your Name" />
-              <Input required name="email" type="email" placeholder="Your Email" />
+              <Input className="mb-2" type="hidden" name="access_key" value="d27f2f36-87c3-4f14-b3b8-4d8a960622e4"/>
+              <Input className="mb-2" required name="name" type="text" placeholder="Your Name" />
+              <Input className="mb-2" required name="email" type="email" placeholder="Your Email" />
               <Textarea required name="message" placeholder="Your Message" />
           </CardContent>
           <CardFooter className="flex justify-between items-center">

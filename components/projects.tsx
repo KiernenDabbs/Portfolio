@@ -18,6 +18,13 @@ export function Projects() {
       liveUrl: "https://steamcommunity.com/sharedfiles/filedetails/?id=3155623287",
       githubUrl: "https://github.com/KiernenDabbs/Vanilla-Tweaks",
     },
+    {
+      title: "Project Iter Satus",
+      description: "A project created as a result of learning game development with Godot Engine.",
+      tech: ["Godot", "GDScript", "Python"],
+      liveUrl: "https://kiernen-dabbs.itch.io/project-iter-satus",
+      githubUrl: "https://github.com/KiernenDabbs/project-iter-satus"
+    }
   ]
 
   return (

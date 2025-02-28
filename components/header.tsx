@@ -10,7 +10,7 @@ export function Header() {
           <Code className="w-6 h-6" />
           <span>Kiernen Dabbs</span>
         </Link>
-        <nav className="navbar navbar-collapse">
+        <nav className="navbar navbar-expand-lg">
           <ul className="flex space-x-4">
             <li>
               <Link href="#about" className="hover:text-primary transition-colors hovermouse glowyhover">

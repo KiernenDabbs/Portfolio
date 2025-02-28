@@ -4,13 +4,13 @@ import { Code } from "lucide-react"
 
 export function Header() {
   return (
-    <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-accent">
+    <header className="navbar navbar-expand-lg collapse navbar-collapse fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-accent">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold flex items-center gap-2 hovermouse glowyhover">
           <Code className="w-6 h-6" />
           <span>Kiernen Dabbs</span>
         </Link>
-        <nav className="navbar navbar-expand-lg collapse navbar-collapse">
+        <nav className="">
           <ul className="flex space-x-4">
             <li>
               <Link href="#about" className="hover:text-primary transition-colors hovermouse glowyhover">

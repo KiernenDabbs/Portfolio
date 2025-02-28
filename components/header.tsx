@@ -5,12 +5,15 @@ import { Code } from "lucide-react"
 export function Header() {
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-accent">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold flex items-center gap-2 hovermouse glowyhover">
+      <nav className="navbar navbar-expand-lg container mx-auto px-4 py-4 flex justify-between items-center">
+        <Link href="/" className="navbar-brand text-2xl font-bold flex items-center gap-2 hovermouse glowyhover">
           <Code className="w-6 h-6" />
           <span>Kiernen Dabbs</span>
         </Link>
-        <nav className="navbar navbar-expand-lg">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse">
           <ul className="flex space-x-4">
             <li>
               <Link href="#about" className="hover:text-primary transition-colors hovermouse glowyhover">
@@ -38,8 +41,8 @@ export function Header() {
               </Link>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   )
 }

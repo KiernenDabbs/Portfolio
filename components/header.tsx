@@ -16,27 +16,27 @@ export function Header() {
         <div className="collapse navbar-collapse">
           <ul className="flex space-x-4">
             <li>
-              <Link href="#about" className="hover:text-primary transition-colors hovermouse glowyhover">
+              <Link href="#about" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 About
               </Link>
             </li>
             <li>
-              <Link href="#projects" className="hover:text-primary transition-colors hovermouse glowyhover">
+              <Link href="#projects" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Projects
               </Link>
             </li>
             <li>
-              <Link href="#skills" className="hover:text-primary transition-colors hovermouse glowyhover">
+              <Link href="#skills" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Skills
               </Link>
             </li>
             <li>
-              <Link href="/resume" className="hover:text-primary transition-colors hovermouse glowyhover">
+              <Link href="/resume" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Resume
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="hover:text-primary transition-colors hovermouse glowyhover">
+              <Link href="#contact" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Contact
               </Link>
             </li>

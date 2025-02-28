@@ -15,27 +15,27 @@ export function Header() {
         </button>
         <div className="collapse navbar-collapse">
           <ul className="flex space-x-4">
-            <li>
+            <li className="nav-item">
               <Link href="#about" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 About
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link href="#projects" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Projects
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link href="#skills" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Skills
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link href="/resume" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Resume
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link href="#contact" className="nav-link hover:text-primary transition-colors hovermouse glowyhover">
                 Contact
               </Link>
